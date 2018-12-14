@@ -1,0 +1,20 @@
+doctype html
+html
+    head
+        include ./layout/_head.pug
+    body
+      block content
+        .container
+          h1 Page listing
+          -
+            var pages = [
+              { src: 'bright-1', name: 'bright-1'},
+            ];
+
+          ul
+            each page, index in pages
+              li: a(href=page.src + '.html', title=page.name, style="font-size: 1.6rem; color: black;")
+                | #{index + 1}.
+                if page.parent
+                  | [#{page.parent}] -
+                | #{page.name}

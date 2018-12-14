@@ -1,0 +1,15 @@
+@import 'normalize';
+@import 'variables';
+@import 'alignment';
+@import 'global';
+
+// Layout
+@import 'layout';
+
+// responsive when you use gulp, must comment it when you gulp build.
+// @import 'media-responsive';
+
+
+
+// header
+@import 'components';

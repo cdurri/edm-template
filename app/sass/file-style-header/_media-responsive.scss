@@ -1,0 +1,31 @@
+// push it into tag head's style - note when you write you should write in css style
+.hide-large{
+  display: none;
+}
+.hide-mobile{
+  display: table;
+}
+@media only screen and (max-width: 599px){
+  .px-global{
+     padding-left: 15px !important;
+     padding-right: 15px !important;
+  }
+  .px-extra{
+     padding-left: 15px !important;
+     padding-right: 15px !important;
+  }
+
+  /* Targets only Gmail Android */
+  div > u ~ div .wrapper {min-width: 100%;}
+
+  /* Targets both Gmail iOS and Gmail Android (Nexus, pixel) */
+  u ~ div .wrapper {min-width: 100vw;}
+  .px-gutter-small{
+     padding-left: 15px !important;
+     padding-right: 15px !important;
+  }
+
+  .box-footer{
+     padding: 30px 15px !important;
+  }
+}

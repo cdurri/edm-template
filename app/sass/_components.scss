@@ -1,0 +1,15 @@
+.table-header-bg{
+  
+  background: $secondary-color;
+  text-align: left;
+  color: $light;
+  .px-global{
+    padding: 15px $global-padding;
+  }
+}
+
+.section_why{
+  ul li{
+    margin-bottom: 5px;
+  }
+}

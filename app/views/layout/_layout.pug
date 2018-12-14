@@ -1,0 +1,40 @@
+doctype html
+html
+  head
+    include ./_head.pug
+  body.full-width
+    //begin table container
+    table.body-container.wrapper
+      tr
+        td.center(align="center" valign="center")
+          <center class="center">
+            //- Begin fix center for outlook
+            <!--[if mso]>
+              <table class="mso-center"><tr><td class="max-width">
+            <![endif]-->
+              //- Begin table content fix Gmail App in Ios
+              <table align="center">
+                <tbody>
+                  <tr>
+                    <td>
+                      //- Begin table content
+                      <table class="text-left">
+                        <tr>
+                          <td class="wrapper-content">
+                            block content
+                          </td>
+                        </tr>
+                      </table> 
+                      //- End table content
+                    </td>  
+                  </tr>
+                </tbody>   
+              </table>
+              //- End table content fix Gmail App in Ios
+            <!--[if mso]>
+              </td></tr></table>
+            <![endif]-->
+            //- End fix center for outlook
+          </center>
+    //End table container
+

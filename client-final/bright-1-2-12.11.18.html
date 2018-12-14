@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <!--[if IE]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <![endif]-->
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="format-detection" content="telephone=yes">
+      <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;">
+      <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+      <meta name="x-apple-disable-message-reformatting">
+      <title></title>
+      <meta name="description" content="">
+      <meta name="keywords" content="">
+      <meta name="robots" content="index, follow">
+      <meta name="author" content="">
+      <link rel="stylesheet" href="css/styles.min.css">
+      <style>
+         @media only screen and (max-width: 599px){
+            .px-global{
+               padding-left: 15px !important;
+               padding-right: 15px !important;
+            }
+            .px-extra{
+               padding-left: 15px !important;
+               padding-right: 15px !important;
+            }
+
+            /* Targets only Gmail Android */
+            div > u ~ div .wrapper {min-width: 100%;}
+
+            /* Targets both Gmail iOS and Gmail Android (Nexus, pixel) */
+            u ~ div .wrapper {min-width: 100vw;}
+            .px-gutter-small{
+               padding-left: 15px !important;
+               padding-right: 15px !important;
+            }
+
+            .box-footer{
+               padding: 30px 15px !important;
+            }
+         }
+      </style>
+   </head>
+   <body class="full-width" style="font-size: 14px;
+      font-weight: 400;
+      font-family: Roboto, arial, tahoma;
+      line-height: 21px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      color: #1d1d1d;
+      text-align: left;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      background: #eeeeee;
+      min-width: 100%;
+      vertical-align: middle;
+      display: block;
+      margin: 0;
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+      -moz-hyphens: auto;
+      -webkit-hyphens: auto;
+      outline: none !important;
+      box-sizing: border-box !important;">
+      <!-- begin table container -->
+      <table class="body-container wrapper" style="border-spacing:0;border-collapse:collapse;margin:0 auto;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;height:100%;background:#f8f8f8;max-width:600px;">
+         <tr style="padding: 0;
+            word-wrap: break-word;
+            margin: 0;">
+            <td class="center" align="center" valign="center" style="padding:0;margin:0 auto;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;max-width:600px;width:100%;">
+               <center class="center" style="max-width:600px;width:100%;margin:0 auto;">
+                  <!--[if (mso)|(IE)]>
+                  <table align="center" class="preheader" cellpadding="0" cellspacing="0" role="presentation">
+                     <tr>
+                        <td style="width: 280px" valign="top">
+                           <![endif]-->
+                           <table align="center" class="fixios" style="border-spacing:0;border-collapse:collapse;margin:0 auto;padding:0;max-width:600px !important;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;background:#fefefe;float:none;text-align:center;vertical-align:top;">
+                              <tbody>
+                                 <tr style="padding: 0;
+                                    word-wrap: break-word;
+                                    margin: 0;">
+                                    <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                       <table class="text-left" style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;text-align:left;">
+                                          <tr style="padding: 0;
+                                             word-wrap: break-word;
+                                             margin: 0;">
+                                             <td class="wrapper-content" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                <!---Begin header-->
+                                                <table class="row bg-secondary " style="background: #471E6C; border-collapse: collapse; border-spacing: 0; display: table; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;">
+                                                   <tbody>
+                                                     <tr style="padding: 0; text-align: left; vertical-align: top;">
+                                                       <th class="px-gutter-small small-12 large-3 columns last" style="Margin: 0 auto; color: #fff; font-family: arial, sans-serif; font-size: 14px; font-weight: normal; line-height: 1; margin: 0 auto; padding-bottom: 10px; padding-left: 30px; padding-right: 30px; padding-top: 10px; text-align: center; width: 120px; vertical-align: middle;">
+                                                         <table style="border-collapse: collapse; border-spacing: 0; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; padding: 0; text-align: left; vertical-align: middle; width: 100%; color: #fff;">
+                                                           <tr style="padding: 0; text-align: left; vertical-align: middle;">
+                                                             <td class="no-spacing-all text-underline" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: white !important; font-family: arial, sans-serif; font-size: 14px; font-weight: normal; hyphens: auto; line-height: 1; margin: 0 !important; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; padding: 0 !important; text-align: left; vertical-align: top; word-wrap: break-word;">
+                                                               <small class="text-white" style="color: white !important; font-size: 10px;">
+                                                                  New data from first H2H RCT of glargine U300 vs degludec U100 in insulin naive T2DM
+                                                               </small>
+                                                             </td>
+                                                             <td class="no-spacing-all text-white text-underline" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: white !important; font-family: arial, sans-serif; font-size: 14px; font-weight: normal; hyphens: auto; line-height: 1; margin: 0 !important; mso-table-lspace: 0pt !important; mso-table-rspace: 0pt !important; padding: 0 !important; text-align: right; text-decoration: underline; vertical-align: top; word-wrap: break-word;" width="65">
+                                                               <a href="#" style="Margin: 0; color: white; font-family: arial, sans-serif; font-weight: normal; line-height: 1; margin: 0; padding: 0; text-align: right; text-decoration: underline;">
+                                                                 <small class="text-white" style="color: white !important; font-size: 10px;">
+                                                                   View online
+                                                                 </small>
+                                                               </a>
+                                                             </td>
+                                                           </tr>
+                                                         </table>
+                                                       </th>
+                                                     </tr>
+                                                   </tbody>
+                                                 </table>
+                                                <!---End header-->
+                                                <table class="global-img hero-banner-header" style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                   <tr style="padding: 0;
+                                                      word-wrap: break-word;
+                                                      margin: 0;">
+                                                      <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;"><a href="#"><img class="full-width no-spacing" src="https://gallery.mailchimp.com/466820d07cd9e003197d52b79/images/ab6fc807-a1bb-4e5a-b197-657cdf6ed0e1.png" alt="header hero banner" style="max-width:100%;border:0;outline:0;color:#2837b8;font-size:14px;height:auto;width:auto;display:block;padding:0;margin:0;"></a></td>
+                                                   </tr>
+                                                </table>
+                                                <!---Begin logo header-->
+                                                <table class="global-img hero-banner-header" style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                   <tr style="padding: 0;
+                                                      word-wrap: break-word;
+                                                      margin: 0;">
+                                                      <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;"><a href="#"><img class="full-width no-spacing" src="http://saltyplayground.com.au/edm/SNF001/header1-2.png" alt="header hero banner" style="max-width:100%;border:0;outline:0;color:#2837b8;font-size:14px;height:auto;width:auto;display:block;padding:0;margin:0;"></a></td>
+                                                   </tr>
+                                                </table>
+                                                <!---End logo header-->
+                                                <!-- begin Bright ver 2 PC -->
+                                                <table class="bright_v2_pc" style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                   <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                      <td class="px-global" style="padding:0 30px;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;padding-left:30px;padding-right:30px;">
+                                                         <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                            <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                               <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">
+                                                                  <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                     <tbody>
+                                                                        <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                           <td class="no-spacing" height="30" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;"></td>
+                                                                        </tr>
+                                                                     </tbody>
+                                                                  </table>
+                                                               </td>
+                                                            </tr>
+                                                            <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                               <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">In BRIGHT, degludec U100 and glargine U300 in insulin-naive patients with uncontrolled T2DM both demonstrated powerful HbA<sub>1c</sub> reduction<sup>1</sup>
+                                                               </td>
+                                                            </tr>
+                                                            <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                               <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">
+                                                                  <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                     <tbody>
+                                                                        <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                           <td class="no-spacing" height="15" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;"></td>
+                                                                        </tr>
+                                                                     </tbody>
+                                                                  </table>
+                                                               </td>
+                                                            </tr>
+                                                            <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                               <td class="text-bold pl-half-global" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:700;font-family:Roboto,arial,tahoma;line-height:18px;padding-left:15px;">&bull; Primary endpoint:</td>
+                                                            </tr>
+                                                            <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                               <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">
+                                                                  <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                     <tbody>
+                                                                        <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                           <td class="no-spacing" height="10" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;"></td>
+                                                                        </tr>
+                                                                     </tbody>
+                                                                  </table>
+                                                               </td>
+                                                            </tr>
+                                                            <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                               <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">
+                                                                  <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                     <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                        <td class="pl-global vertical-top" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;padding-left:30px;vertical-align:top;">-</td>
+                                                                        <td class="pl-5" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;padding-left:5px; word-break: normal;">Effective HbA<sub>1c</sub> reduction of &ndash;1.6% (baseline: 8.6%) with glargine U300, non-inferior vs degludec U100, ITT population.</td>
+                                                                     </tr>
+                                                                  </table>
+                                                               </td>
+                                                            </tr>
+                                                            <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                               <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">
+                                                                  <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                     <tbody>
+                                                                        <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                           <td class="no-spacing" height="10" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;"></td>
+                                                                        </tr>
+                                                                     </tbody>
+                                                                  </table>
+                                                               </td>
+                                                            </tr>
+                                                            <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                               <td class="pl-half-global line-height-20" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;padding-left:15px;">HbA<sub>1c</sub> change (LS mean difference vs degludec U100): &ndash;0.05%; 95% CI &ndash;0.15 to 0.05; P&lt;0.0001 for non-inferiority of glargine U300 vs degludec U100.</td>
+                                                            </tr>
+                                                            <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                               <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">
+                                                                  <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                     <tbody>
+                                                                        <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                           <td class="no-spacing" height="15" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;"></td>
+                                                                        </tr>
+                                                                     </tbody>
+                                                                  </table>
+                                                               </td>
+                                                            </tr>
+                                                            <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                               <td class="text-bold pl-half-global" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:700;font-family:Roboto,arial,tahoma;line-height:18px;padding-left:15px;">&bull; Safety endpoints:</td>
+                                                            </tr>
+                                                            <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                               <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">
+                                                                  <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                     <tbody>
+                                                                        <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                           <td class="no-spacing" height="10" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;"></td>
+                                                                        </tr>
+                                                                     </tbody>
+                                                                  </table>
+                                                               </td>
+                                                            </tr>
+                                                            <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                               <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">
+                                                                  <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                     <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                        <td class="pl-global vertical-top" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;padding-left:30px;vertical-align:top; padding-top: 5px;">-</td>
+                                                                        <td class="pl-5" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;padding-left:5px;">lower rates and incidence of anytime<sup>&dagger;</sup> hypoglycaemia during the active titration period (weeks 0&ndash;12) were observed with glargine U300 vs degludec U100</td>
+                                                                     </tr>
+                                                                  </table>
+                                                               </td>
+                                                            </tr>
+                                                            <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                               <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">
+                                                                  <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                     <tbody>
+                                                                        <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                           <td class="no-spacing" height="5" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;"></td>
+                                                                        </tr>
+                                                                     </tbody>
+                                                                  </table>
+                                                               </td>
+                                                            </tr>
+                                                            <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                               <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">
+                                                                  <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                     <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                        <td class="pl-global vertical-top" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;padding-left:30px;vertical-align:top; padding-top: 5px;">-</td>
+                                                                        <td class="pl-5" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;padding-left:5px;">comparable incidence and rates of anytime<sup>&dagger;</sup> hypoglycaemia over the 24-week treatment period</td>
+                                                                     </tr>
+                                                                  </table>
+                                                               </td>
+                                                            </tr>
+                                                            <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                               <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">
+                                                                  <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                     <tbody>
+                                                                        <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                           <td class="no-spacing" height="5" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;"></td>
+                                                                        </tr>
+                                                                     </tbody>
+                                                                  </table>
+                                                               </td>
+                                                            </tr>
+                                                            <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                               <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">
+                                                                  <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                     <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                        <td class="pl-global vertical-top" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;padding-left:30px;vertical-align:top;">-</td>
+                                                                        <td class="pl-5" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;padding-left:5px;">comparable incidence of nocturnal hypoglycaemia during the titration period and 24-week treatment period</td>
+                                                                     </tr>
+                                                                  </table>
+                                                               </td>
+                                                            </tr>
+                                                            <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                               <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">
+                                                                  <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                     <tbody>
+                                                                        <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                           <td class="no-spacing" height="5" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;"></td>
+                                                                        </tr>
+                                                                     </tbody>
+                                                                  </table>
+                                                               </td>
+                                                            </tr>
+                                                            <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                               <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">
+                                                                  <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                     <tbody>
+                                                                        <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                           <td class="no-spacing" height="20" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;"></td>
+                                                                        </tr>
+                                                                     </tbody>
+                                                                  </table>
+                                                               </td>
+                                                            </tr>
+                                                            <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                               <td class="pl-half-global text-gray" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;color:#707070;padding-left:15px;"><sup>&dagger;</sup>Anytime hypoglycaemia: hypoglycaemia experienced during a 24-hour period.</td>
+                                                            </tr>
+                                                            <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                               <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">
+                                                                  <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                     <tbody>
+                                                                        <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                           <td class="no-spacing" height="30" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;"></td>
+                                                                        </tr>
+                                                                     </tbody>
+                                                                  </table>
+                                                               </td>
+                                                            </tr>
+                                                         </table>
+                                                      </td>
+                                                   </tr>
+                                                </table>
+                                                <!-- End Bright ver 2 PC -->
+                                                <!-- Begin lower anytime section -->
+                                                <table class="section_lower_anytime" style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                   <tr style="padding: 0;
+                                                      word-wrap: break-word;
+                                                      margin: 0;">
+                                                      <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                         <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                            <tr style="padding: 0;
+                                                               word-wrap: break-word;
+                                                               margin: 0;">
+                                                               <td class="px-global" style="padding:0 30px;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;padding-left:30px;padding-right:30px;">
+                                                                  <table class="title_section" style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                     <tr style="padding: 0;
+                                                                        word-wrap: break-word;
+                                                                        margin: 0;">
+                                                                        <td class="text-lead" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:18px;font-weight:700;font-family:Roboto, arial, tahoma;line-height:18px;color:#471E6C;">Lower anytime<sup>&dagger;</sup> hypoglycemia incidence and rates during active titration (week 0-12)</td>
+                                                                     </tr>
+                                                                  </table>
+                                                               </td>
+                                                            </tr>
+                                                            <tr style="padding: 0;
+                                                               word-wrap: break-word;
+                                                               margin: 0;">
+                                                               <td class="text-small px-global" style="padding:0 30px;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:12px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;color:#1d1d1d;padding-left:30px;padding-right:30px; height: 30px;"></td>
+                                                            </tr>
+                                                            <tr style="padding: 0;
+                                                               word-wrap: break-word;
+                                                               margin: 0;">
+                                                               <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                  <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                     <tbody>
+                                                                        <tr style="padding: 0;
+                                                                           word-wrap: break-word;
+                                                                           margin: 0;">
+                                                                           <td class="no-spacing" height="10" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;"></td>
+                                                                        </tr>
+                                                                     </tbody>
+                                                                  </table>
+                                                               </td>
+                                                            </tr>
+                                                            <tr style="padding: 0;
+                                                               word-wrap: break-word;
+                                                               margin: 0;">
+                                                               <td class="px-global hide-mobile" style="padding:0 30px;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;padding-left:30px;padding-right:30px;">
+                                                                  <table class="global-img full-width" style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                     <tr style="padding: 0;
+                                                                        word-wrap: break-word;
+                                                                        margin: 0;">
+                                                                        <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;"><img class="no-spacing" src="https://gallery.mailchimp.com/466820d07cd9e003197d52b79/images/3d6ca213-84e4-4ffb-a0f2-dbed659f0ec0.jpg" alt="lower image pc" style="max-width:100%;border:0;outline:0;color:#2837b8;font-size:14px;height:auto;width:auto;display:block;padding:0;margin:0;"></td>
+                                                                     </tr>
+                                                                  </table>
+                                                               </td>
+                                                            </tr>
+                                                            <tr style="padding: 0;
+                                                               word-wrap: break-word;
+                                                               margin: 0;">
+                                                               <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                  <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                     <tbody>
+                                                                        <tr style="padding: 0;
+                                                                           word-wrap: break-word;
+                                                                           margin: 0;">
+                                                                           <td class="no-spacing" height="20" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;"></td>
+                                                                        </tr>
+                                                                     </tbody>
+                                                                  </table>
+                                                               </td>
+                                                            </tr>
+                                                            <tr style="padding: 0;
+                                                               word-wrap: break-word;
+                                                               margin: 0;">
+                                                               <td class="text-small px-global" style="padding:0 30px;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:12px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:20px;color:#1d1d1d;padding-left:30px;padding-right:30px;"><sup>†</sup>Over 24h<br>
+                                                                  <sup>‡</sup>Nominal P value<br>
+                                                                  <sup>§</sup>Safety population (U300 glargine, n=462; U100 degludec, n=462)<br>
+                                                                  Nocturnal hypoglycaemia: hypoglycaemia experiencedduring 00:00-05:59<br>
+                                                               
+                                                               </td>
+                                                            </tr>
+                                                            <tr style="padding: 0;
+                                                               word-wrap: break-word;
+                                                               margin: 0;">
+                                                               <td class="text-left px-global" style="padding:0 30px;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;text-align:left;padding-left:30px;padding-right:30px;">
+                                                                  <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                     <tbody>
+                                                                        <tr style="padding: 0;
+                                                                           word-wrap: break-word;
+                                                                           margin: 0;">
+                                                                           <td class="no-spacing" height="20" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;"></td>
+                                                                        </tr>
+                                                                     </tbody>
+                                                                  </table>
+                                                                  <!--[if mso]>
+                                                                  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:40px;v-text-anchor:middle;width:420px; target="_blank" display: block;" arcsize="15%" stroke="f" fillcolor="#90c365">
+                                                                     <w:anchorlock/>
+                                                                     <center>
+                                                                        <![endif]--><a href="https://www.mysanoficonnect.com.au/articles/toujeo/easd-2018" target="_blank" style="-webkit-text-size-adjust: none; display: block; Margin: 0; line-height: 20px; background-color: #90c365; border-radius: 5px; color: #ffffff; display: inline-block; font-family: sans-serif; font-size: 14px; font-weight: bold; margin: 0; text-align: center; text-decoration: none; padding: 10px 15px;">Watch A/Prof Alice Cheng present the Bright study data</a>
+                                                                        <!--[if mso]>
+                                                                     </center>
+                                                                  </v:roundrect>
+                                                                  <![endif]-->
+                                                                  <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                     <tbody>
+                                                                        <tr style="padding: 0;
+                                                                           word-wrap: break-word;
+                                                                           margin: 0;">
+                                                                           <td class="no-spacing" height="20" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;"></td>
+                                                                        </tr>
+                                                                     </tbody>
+                                                                  </table>
+                                                               </td>
+                                                            </tr>
+                                                         </table>
+                                                      </td>
+                                                   </tr>
+                                                </table>
+                                                <!-- End lower anytime section -->
+                                                
+                                                </td>
+                                             </tr>
+                                             <tr style="padding: 0;
+                                             word-wrap: break-word;
+                                             margin: 0;">
+                                                <td class="wrapper-content" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                   <!--- Begin section Why -->
+                                                <table class="section_why" style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                      <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                         <td class="px-global" style="padding:0 30px;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;padding-left:30px;padding-right:30px;">
+                                                            <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                               <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                  <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">
+                                                                     <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                        <tbody>
+                                                                           <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                              <td class="no-spacing" height="30" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;"></td>
+                                                                           </tr>
+                                                                        </tbody>
+                                                                     </table>
+                                                                  </td>
+                                                               </tr>
+                                                               <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                  <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">
+                                                                     <table class="title_section" style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                        <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                           <td class="text-lead" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:18px;font-weight:700;font-family:Roboto,arial,tahoma;line-height:18px;color:#471E6C;">Why hypoglycaemia matters</td>
+                                                                        </tr>
+                                                                     </table>
+                                                                  </td>
+                                                               </tr>
+                                                               <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                  <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">
+                                                                     <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                        <tbody>
+                                                                           <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                              <td class="no-spacing" height="15" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;"></td>
+                                                                           </tr>
+                                                                        </tbody>
+                                                                     </table>
+                                                                  </td>
+                                                               </tr>
+                                                               <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                  <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">Hypoglycaemia is a highly feared adverse effect of diabetes medication.<sup>2</sup>
+                                                                  </td>
+                                                               </tr>
+                                                               <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                  <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">
+                                                                     <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                        <tbody>
+                                                                           <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                              <td class="no-spacing" height="10" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;"></td>
+                                                                           </tr>
+                                                                        </tbody>
+                                                                     </table>
+                                                                  </td>
+                                                               </tr>
+                                                               <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                  <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">It matters because:</td>
+                                                               </tr>
+                                                               <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                  <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">
+                                                                     <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                        <tbody>
+                                                                           <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                              <td class="no-spacing" height="10" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;"></td>
+                                                                           </tr>
+                                                                        </tbody>
+                                                                     </table>
+                                                                  </td>
+                                                               </tr>
+                                                               <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                  <td class="px-half-global" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;padding-left:15px;padding-right:15px;">
+                                                                     <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                        <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                           <td class="vertical-top" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;vertical-align:top;">&bull;</td>
+                                                                           <td class="pl-15" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;padding-left:15px;">Non-severe nocturnal hypoglycaemic events reduce sleep quality, and 7 out of 10 lead to daytime tiredness<sup>3</sup>
+                                                                           </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                           <td style="height: 5px;"></td>
+                                                                        </tr>
+                                                                        <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                           <td class="vertical-top" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;vertical-align:top;">&bull;</td>
+                                                                           <td class="pl-15" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;padding-left:15px;">it makes 61% of family members worry about their loved one.<sup>4</sup>
+                                                                           </td>
+                                                                        </tr>
+                                                                     </table>
+                                                                  </td>
+                                                               </tr>
+   
+                                                               <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                  <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">
+                                                                     <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                        <tbody>
+                                                                           <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                              <td class="no-spacing" height="10" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;"></td>
+                                                                           </tr>
+                                                                        </tbody>
+                                                                     </table>
+                                                                  </td>
+                                                               </tr>
+                                                               <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                  <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">Hypoglycaemia or a fear of hypoglycaemia may also have negative effects on: </td>
+                                                               </tr>
+                                                               <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                  <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">
+                                                                     <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                        <tbody>
+                                                                           <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                              <td class="no-spacing" height="10" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;"></td>
+                                                                           </tr>
+                                                                        </tbody>
+                                                                     </table>
+                                                                  </td>
+                                                               </tr>
+                                                               <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                  <td class="px-half-global" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;padding-left:15px;padding-right:15px;">
+                                                                     <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                        <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                           <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">&bull;</td>
+                                                                           <td class="pl-10" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;padding-left:10px;">initiation of insulin therapy<sup>5</sup>
+                                                                           </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                           <td colspan="2" style="height: 5px;"></td>
+                                                                        </tr>
+                                                                        <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                           <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">&bull;</td>
+                                                                           <td class="vertical-top pl-10" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;padding-left:10px;vertical-align:top;">effective insulin titration<sup>5</sup>
+                                                                           </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                           <td colspan="2" style="height: 5px;"></td>
+                                                                        </tr>
+                                                                        <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                           <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">&bull;</td>
+                                                                           <td class="vertical-top pl-10" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;padding-left:10px;vertical-align:top;">patient confidence<sup>6</sup>
+                                                                           </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                           <td colspan="2" style="height: 5px;"></td>
+                                                                        </tr>
+                                                                        <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                           <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">&bull;</td>
+                                                                           <td class="vertical-top pl-10" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;padding-left:10px;vertical-align:top;">treatment experience and compliance<sup>7</sup>
+                                                                           </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                           <td colspan="2" style="height: 5px;"></td>
+                                                                        </tr>
+                                                                        <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                           <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">&bull;</td>
+                                                                           <td class="vertical-top pl-10" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;padding-left:10px;vertical-align:top;">glycaemic control.<sup>2,5-7</sup>
+                                                                           </td>
+                                                                        </tr>
+                                                                     </table>
+                                                                  </td>
+                                                               </tr>
+                                                               <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                  <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;">
+                                                                     <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                        <tbody>
+                                                                           <tr style="padding:0;word-wrap:break-word;margin:0;">
+                                                                              <td class="no-spacing" height="30" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto,arial,tahoma;line-height:18px;"></td>
+                                                                           </tr>
+                                                                        </tbody>
+                                                                     </table>
+                                                                  </td>
+                                                               </tr>
+                                                            </table>
+                                                         </td>
+                                                      </tr>
+                                                   </table>
+                                                   <!--- End section Why -->
+                                                   <table class="bg-light-green" style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;background:#F2F8EC;">
+                                                      <tbody>
+                                                         <tr style="padding: 0;
+                                                            word-wrap: break-word;
+                                                            margin: 0;">
+                                                            <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                               <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                  <tbody>
+                                                                     <tr style="padding: 0;
+                                                                        word-wrap: break-word;
+                                                                        margin: 0;">
+                                                                        <td class="no-spacing" height="30" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;"></td>
+                                                                     </tr>
+                                                                  </tbody>
+                                                               </table>
+                                                            </td>
+                                                         </tr>
+                                                         <tr style="padding: 0;
+                                                            word-wrap: break-word;
+                                                            margin: 0;">
+                                                            <td class="px-global" style="padding:0 30px;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;padding-left:30px;padding-right:30px;">
+                                                               <strong class="text-secondary text-lead" style="color:#471E6C;font-size:18px;font-weight:700;">BRIGHT study design<sup>1</sup></strong>
+                                                            </td>
+                                                         </tr>
+                                                         <tr style="padding: 0;
+                                                            word-wrap: break-word;
+                                                            margin: 0;">
+                                                            <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                               <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                  <tbody>
+                                                                     <tr style="padding: 0;
+                                                                        word-wrap: break-word;
+                                                                        margin: 0;">
+                                                                        <td class="no-spacing" height="20" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;"></td>
+                                                                     </tr>
+                                                                  </tbody>
+                                                               </table>
+                                                            </td>
+                                                         </tr>
+                                                         <tr style="padding: 0;
+                                                            word-wrap: break-word;
+                                                            margin: 0;">
+                                                            <td class="px-global" style="padding:0 30px;margin:0;word-wrap:normal;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;padding-left:30px;padding-right:30px;">
+                                                               <strong class="text-bold text-secondary" style="color:#471E6C;font-weight:700;">BRIGHT</strong> <strong>is the first head-to-head randomised controlled clinical study comparing the efficacy and safety of two second-generation basal insulin analogues,</strong> offering valuable insight into the similarity in glycaemic control and difference in hypoglycaemia risk associated with glargine U300 and degludec U100.<br>
+                                                            </td>
+                                                         </tr>
+                                                         <tr style="padding: 0;
+                                                            word-wrap: break-word;
+                                                            margin: 0;">
+                                                            <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                               <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                  <tbody>
+                                                                     <tr style="padding: 0;
+                                                                        word-wrap: break-word;
+                                                                        margin: 0;">
+                                                                        <td class="no-spacing" height="20" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;"></td>
+                                                                     </tr>
+                                                                  </tbody>
+                                                               </table>
+                                                            </td>
+                                                         </tr>
+                                                         <tr style="padding: 0;
+                                                            word-wrap: break-word;
+                                                            margin: 0;">
+                                                            <td class="px-global" style="padding:0 30px;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;padding-left:30px;padding-right:30px;">
+                                                               <strong class="text-bold text-secondary" style="color:#471E6C;font-weight:700;">BRIGHT</strong> was a 24-week randomised, multicentre, open-label non-inferiority study following 929 insulin-naïve patients with T2DM uncontrolled by OADs with or without GLP-1 receptor agonists. Patients from 16 countries (158 study sites) were randomised 1:1 to receive an evening dose of glargine U300 (n=466) or degludec U100 (n=463). Achievement of the fasting self-monitored plasma glucose target was aimed for during the active titration period (weeks 0–12), but dose titrations were still allowed thereafter.
+                                                            </td>
+                                                         </tr>
+                                                         <tr style="padding: 0;
+                                                            word-wrap: break-word;
+                                                            margin: 0;">
+                                                            <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                               <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                  <tbody>
+                                                                     <tr style="padding: 0;
+                                                                        word-wrap: break-word;
+                                                                        margin: 0;">
+                                                                        <td class="no-spacing" height="10" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;"></td>
+                                                                     </tr>
+                                                                  </tbody>
+                                                               </table>
+                                                            </td>
+                                                         </tr>
+                                                         <tr style="padding: 0;
+                                                            word-wrap: break-word;
+                                                            margin: 0;">
+                                                            <td class="text-tiny px-global" style="padding:0 30px;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:10px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;padding-left:30px;padding-right:30px;">CI, confidence interval; GLP-1, glucagon-like peptide-1; H2H, head-to-head; ITT, intent-to-treat; LS, least-squares; OAD, oral anti-hyperglycaemic drug; RR, rate ratio; T2DM, type 2 diabetes mellitus.</td>
+                                                         </tr>
+                                                         <tr style="padding: 0;
+                                                            word-wrap: break-word;
+                                                            margin: 0;">
+                                                            <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                               <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                  <tbody>
+                                                                     <tr style="padding: 0;
+                                                                        word-wrap: break-word;
+                                                                        margin: 0;">
+                                                                        <td class="no-spacing" height="20" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;"></td>
+                                                                     </tr>
+                                                                  </tbody>
+                                                               </table>
+                                                            </td>
+                                                         </tr>
+                                                         <tr style="padding: 0;
+                                                            word-wrap: break-word;
+                                                            margin: 0;">
+                                                            <td class="text-left px-global bg-light-green" style="padding:0 30px;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;text-align:left;padding-left:30px;padding-right:30px;background:#F2F8EC;">
+                                                               <!--[if mso]>
+                                                               <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:40px;v-text-anchor:middle;width:420px; display: block;" arcsize="15%" stroke="f" fillcolor="#90c365">
+                                                                  <w:anchorlock/>
+                                                                  <center>
+                                                                     <![endif]-->
+                                                                     <a href="https://www.mysanoficonnect.com.au/articles/toujeo/easd-2018" target="_blank" style="-webkit-text-size-adjust: none; display: block; Margin: 0; line-height: 20px; background-color: #90c365; border-radius: 5px; color: #ffffff; display: inline-block; font-family: sans-serif; font-size: 14px; font-weight: bold; margin: 0; text-align: center; text-decoration: none; padding: 10px 15px;">Watch A/Prof Alice Cheng present the Bright study data</a>
+                                                                     <!--[if mso]>
+                                                                  </center>
+                                                               </v:roundrect>
+                                                               <![endif]-->
+                                                               <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                  <tbody>
+                                                                     <tr style="padding: 0;
+                                                                        word-wrap: break-word;
+                                                                        margin: 0;">
+                                                                        <td class="no-spacing" height="30" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;"></td>
+                                                                     </tr>
+                                                                  </tbody>
+                                                               </table>
+                                                            </td>
+                                                         </tr>
+                                                      </tbody>
+                                                   </table>
+                                                   <table class="section-references" style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                      <tr style="padding: 0;
+                                                         word-wrap: break-word;
+                                                         margin: 0;">
+                                                         <td class="px-global" style="padding:0 30px;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;padding-left:30px;padding-right:30px;">
+                                                            <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                               <tr style="padding: 0;
+                                                                  word-wrap: break-word;
+                                                                  margin: 0;">
+                                                                  <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                     <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                        <tbody>
+                                                                           <tr style="padding: 0;
+                                                                              word-wrap: break-word;
+                                                                              margin: 0;">
+                                                                              <td class="no-spacing" height="35" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;"></td>
+                                                                           </tr>
+                                                                        </tbody>
+                                                                     </table>
+                                                                  </td>
+                                                               </tr>
+                                                               <tr style="padding: 0;
+                                                                  word-wrap: break-word;
+                                                                  margin: 0;">
+                                                                  <td class="text-lead" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:18px;font-weight:700;font-family:Roboto, arial, tahoma;line-height:18px;color:#471E6C;">References</td>
+                                                               </tr>
+                                                               <tr style="padding: 0;
+                                                                  word-wrap: break-word;
+                                                                  margin: 0;">
+                                                                  <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                     <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                        <tbody>
+                                                                           <tr style="padding: 0;
+                                                                              word-wrap: break-word;
+                                                                              margin: 0;">
+                                                                              <td class="no-spacing" height="20" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;"></td>
+                                                                           </tr>
+                                                                        </tbody>
+                                                                     </table>
+                                                                  </td>
+                                                               </tr>
+                                                               <tr style="padding: 0;
+                                                                  word-wrap: break-word;
+                                                                  margin: 0;">
+                                                                  <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                     <table style="width: 100%; border-spacing: 0;">
+                                                                        <tr style="width: 100%; border-spacing: 0;">
+                                                                          <td style="width: 100%; border-spacing: 0; color: #0a0a0a; font-family: arial, sans-serif; font-size: 11px; text-align: left; line-height: 26px; vertical-align: top; font-weight: normal;">
+                                                                              1. &nbsp;Rosenstock J, <i>et al</i>. Diabetes Care 2018;41:2147–2154.<br>
+                                                                              2. &nbsp;Elliot L, <i>et al</i>. Diabetes Ther 2016;7:45–60.<br>
+                                                                              3. &nbsp;Brod M, <i>et al</i>. Diabetes Obes Metab 2013:15:546–557.<br>
+                                                                              4. &nbsp;Kovacs Burns K, <i>et al</i>. Diabet Med 2013; 30:778–788.<br>
+                                                                              5. &nbsp;Russel-Jones D, <i>et al</i>. Diabetes Obes Metab 2018;20:488–496.<br>
+                                                                              6. &nbsp;Polonsky WH, <i>et al</i>. Diabetes Technol Ther 2017;19:131–136.<br>
+                                                                              7. &nbsp;Dalal MR, <i>et al</i>. Adv Ther 2017;34:2083–2092.
+                                                                          </td>
+                                                                        </tr>
+                                                                      </table>
+                                                                  </td>
+                                                               </tr>
+                                                               <tr style="padding: 0;
+                                                                  word-wrap: break-word;
+                                                                  margin: 0;">
+                                                                  <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                     <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                        <tbody>
+                                                                           <tr style="padding: 0;
+                                                                              word-wrap: break-word;
+                                                                              margin: 0;">
+                                                                              <td class="no-spacing" height="0" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;"></td>
+                                                                           </tr>
+                                                                        </tbody>
+                                                                     </table>
+                                                                  </td>
+                                                               </tr>
+                                                            </table>
+                                                         </td>
+                                                      </tr>
+                                                   </table>
+                                                   <!-- Begin box footer -->
+                                                   <table class="box-footer" style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:11px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                      <tbody>
+                                                         <tr style="padding: 0;
+                                                            word-wrap: break-word;
+                                                            margin: 0;">
+                                                            <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:11px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                               <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:11px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                  <tbody>
+                                                                     <tr style="padding: 0;
+                                                                        word-wrap: break-word;
+                                                                        margin: 0;">
+                                                                        <td class="no-spacing" height="40" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:11px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;"></td>
+                                                                     </tr>
+                                                                  </tbody>
+                                                               </table>
+                                                            </td>
+                                                         </tr>
+                                                         <tr style="padding: 0;
+                                                            word-wrap: break-word;
+                                                            margin: 0;">
+                                                            <td class="px-extra" style="padding:0 85px;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:11px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                               <table class="text-center border-table" style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:11px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;text-align:center;border:solid 1px #000;">
+                                                                  <tr style="padding: 0;
+                                                                     word-wrap: break-word;
+                                                                     margin: 0;">
+                                                                     <td class="p-in-box" style="padding:5px 10px;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:12px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;"><strong>PBS Information:</strong> Toujeo&reg; Solostar&reg; is listed on the PBS as a long-acting insulin analogue for the treatment of adults with type 1 and type 2 diabetes.</td>
+                                                                  </tr>
+                                                               </table>
+                                                            </td>
+                                                         </tr>
+                                                         <tr style="padding: 0;
+                                                            word-wrap: break-word;
+                                                            margin: 0;">
+                                                            <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:11px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                               <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:11px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                  <tbody>
+                                                                     <tr style="padding: 0;
+                                                                        word-wrap: break-word;
+                                                                        margin: 0;">
+                                                                        <td class="no-spacing" height="5" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:11px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;"></td>
+                                                                     </tr>
+                                                                  </tbody>
+                                                               </table>
+                                                            </td>
+                                                         </tr>
+                                                         <tr style="padding: 0;
+                                                            word-wrap: break-word;
+                                                            margin: 0;">
+                                                            <td class="px-extra" style="padding:0 35px;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:11px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                               <table class="text-center" style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:11px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;text-align:center;">
+                                                                  <tr style="padding: 0;
+                                                                     word-wrap: break-word;
+                                                                     margin: 0;">
+                                                                     <td class="px-70" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:13px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">Please review Product Information before prescribing Toujeo.<br>Full Product Information is available at <br>
+                                                                     <a class="text-green" style="color: #92ca68; text-decoration: none;" href="http://products.sanofi.com.au/aus_pi_toujeo.pdf">http://products.sanofi.com.au/aus_pi_toujeo.pdf </a> or calling 1800 818 806</td>
+                                                                  </tr>
+                                                               </table>
+                                                            </td>
+                                                         </tr>
+                                                         <tr style="padding: 0;
+                                                            word-wrap: break-word;
+                                                            margin: 0;">
+                                                            <td style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                               <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                                  <tbody>
+                                                                     <tr style="padding: 0;
+                                                                        word-wrap: break-word;
+                                                                        margin: 0;">
+                                                                        <td class="no-spacing" height="40" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;"></td>
+                                                                     </tr>
+                                                                  </tbody>
+                                                               </table>
+                                                            </td>
+                                                         </tr>
+                                                      </tbody>
+                                                   </table>
+                                                   <!-- End box footer -->
+                                                   <table class="bg-secondary" style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;background:#471E6C;">
+                                                      <tr style="padding: 0;
+                                                         word-wrap: break-word;
+                                                         margin: 0;">
+                                                         <td class="px-global" style="padding:0 30px;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;padding-left:30px;padding-right:30px;">
+                                                            <table style="border-spacing:0;border-collapse:collapse;margin:0;padding:0;width:100%;mso-table-lspace:0pt !important;mso-table-rspace:0pt !important;font-size:14px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:18px;">
+                                                               <tr style="padding: 0;
+                                                                  word-wrap: break-word;
+                                                                  margin: 0;">
+                                                                  <td class="text-light text-tiny text-center py-half-global line-height-15" align="center" style="padding:0;margin:0;word-wrap:break-word;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;font-size:10px;font-weight:400;font-family:Roboto, arial, tahoma;line-height:15px;color:#fff !important;text-align:center;padding-top:15px;padding-bottom:15px;">Sanofi-Aventis Australia PTY LTD trading as Sanofi, ABN 31 008 558 807 Talavera Corporate Centre, Building D, 12–24 Talavera Road, Macquarie Park, NSW 2113 SAANZ.TJO.18.12.0544a DIB0014. Date of preparation: December 2018.</td>
+                                                               </tr>
+                                                            </table>
+                                                         </td>
+                                                      </tr>
+                                                   </table>
+                                                </td>
+                                             </tr>
+                                          </table>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <!--[if mso]>
+                           </td>
+                        </tr>
+                     </table>
+                     <![endif]-->
+                  </center>
+               </td>
+            </tr>
+         </table>
+         <!--End table container-->
+      </body>
+   </html>
+   

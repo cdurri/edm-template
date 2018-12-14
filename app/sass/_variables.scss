@@ -1,0 +1,106 @@
+//  Table of Contents   : 
+//
+//   1. Global
+//   2. BG
+//   3. Fonts
+//   4. Width page
+//   5. button
+//   6. typo
+
+
+
+
+
+
+
+/* Global
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+$primary-color          : black;
+$secondary-color        : #471E6C;
+$pink-light             : #ece8f0;
+$light                  : #fff;
+$gray-light             : #f8f8f8;
+$gray                   : #b9b9b9;
+$medium-gray            : #eeeeee;
+$gray-dark              : #707070;
+$gray-bold              : #848484;
+$gray-soft              : #F2F2F2;
+$dark                   : #1d1d1d;
+
+$darker                 : #000;
+$blue-banner            : rgba(12, 24, 47, 0.8);
+$blue-dark              : #0C182F;
+$blue-darker            : #3B4557;
+$blue-light             : #355EAD;
+$blue-soft              : #BFE2EF;
+$green-dark             : #005B7C;
+$green                  : #03a87c;
+
+
+$color-link             : #2837b8 ;
+$color-facebook         : #3b5998;
+$color-pinterest        : #BB0F24;
+$color-instagram        : #F4AC39;
+$color-twitter          : #2AA3EF;
+$color-light-green      : #F2F8EC;
+
+
+// $global-gutter       : 30px;
+
+$global-padding         : 30px;
+$global-line-height     : 18px;
+$global-margin          : 16px;
+$global-radius          : 3px;
+$global-rounded         : 500px;
+$global-half-padding    : $global-padding/2;
+
+/* BG 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+$color-bg-table         : $gray-light;
+
+/* Width page
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+$full-width             : 100%;
+$max-width              : 600px;
+$mobile-break-point     : 415px;
+
+/* Fonts
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+$font-body              : arial, sans-serif;
+
+
+/* Font-weight
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+$font-weight-light      : 300;
+$font-weight-regular    : 400;
+$font-weight-semi-bold  : 500;
+$font-weight-bold       : 700;
+$font-weight-default    : $font-weight-regular;
+
+
+/* Font-size
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+$global-font-size       : 14px;
+
+$h1-font-size           : 60px;
+$h2-font-size           : 30px;
+$h3-font-size           : 28px;
+$h4-font-size           : 24px;
+$h5-font-size           : 20px;
+$h6-font-size           : 18px;
+
+$body-line-height       : $global-line-height;
+$text-align-body        : left;
+$color-body             : $dark;
+
+$paragraph-margin-bottom: 10px;
+
+$small-font-size        : 12px;
+$small-font-color       : $dark;
+$lead-font-size         : $global-font-size * 1.25;
+$lead-line-height       : 1.6;
+$lead-color             : $secondary-color;
+
+$tiny-font-size: 10px;

@@ -1,0 +1,95 @@
+// Foundation for Emails by ZURB
+// zurb.com/ink/
+// Licensed under MIT Open Source
+
+////
+/// @group alignment
+////
+
+table,
+th,
+td,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  &.text-center {
+    text-align: center;
+  }
+
+  &.text-left {
+    text-align: left;
+  }
+
+  &.text-right {
+    text-align: right;
+  }
+}
+
+span.text-center {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+
+img.float-left {
+  float: left;
+  text-align: left;
+}
+
+img.float-right {
+  float: right;
+  text-align: right;
+}
+
+img.float-center,
+img.text-center {
+  margin: 0 auto;
+  float: none;
+  text-align: center;
+}
+
+table,
+td,
+th {
+  &.float-center {
+    margin: 0 auto;
+    float: none;
+    text-align: left;
+  }
+}
+
+
+.float-center{
+  float: none;
+}
+
+.item-center {
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.center{
+  max-width: $max-width;
+  width: $full-width;
+  margin: 0 auto;
+}
+.text-left{
+  text-align: left;
+}
+
+.w-25{
+  width: 25%;
+}
+
+.w-50{
+  width: 50%;
+}
+.w-75{
+  width: 75%;
+}

@@ -1,0 +1,45 @@
+//- Mixin for 1 IMG have TAG a and FULL WIDTH
+mixin table_1img_a(src, alt, href)
+  table.global-img&attributes(attributes)
+    tr
+      td
+        a(href!=href)
+          img(src!=src, alt=alt).full-width.no-spacing
+
+//- Mixin for 1 IMG FULL WIDTH
+mixin table_1img(src, alt)
+  table.global-img&attributes(attributes).full-width
+    tr
+      td
+        img(src!=src, alt=alt).full-width.no-spacing
+
+//- Mixin for SPACER use for px
+
+mixin spacer(num)
+  table(border="0" cellpadding="0" cellspacing="0")&attributes(attributes).line-heigh-0.no-spacing
+    tbody
+      tr
+        td(height!=num).no-spacing.line-heigh-0
+
+//- Mixin for ul li
+
+mixin list(l1, l2, l3, l4, l5, l6,l7)
+  ul.list-pullet&attributes(attributes)
+    li!=l1
+    li!=l2
+    li!=l3
+    if l4
+      li!=l4
+      li!=l5
+    if l6
+      li!=l6
+      li!=l7
+
+//- Mixin for title 
+mixin title_section(title, subtitle)
+  table.title_section&attributes(attributes)
+    tr
+      td.text-lead!=title
+    if subtitle
+      tr
+        td.subtile!= subtitle

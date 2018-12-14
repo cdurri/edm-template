@@ -1,0 +1,102 @@
+// typo
+.text-light {
+  color: $light !important;
+}
+
+.text-small {
+  font-size: $small-font-size;
+  color: $small-font-color;
+
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+
+.text-primary {
+  color: $primary-color;
+}
+
+.text-secondary {
+  color: $secondary-color;
+}
+
+.text-lead {
+  font-size: $lead-font-size;
+  font-weight: $font-weight-bold;
+  color: $secondary-color;
+}
+
+.text-bold {
+  font-weight: $font-weight-semi-bold;
+}
+
+.text-tiny {
+  font-size: $tiny-font-size;
+}
+
+.line-height-15 {
+  line-height: 15px;
+}
+
+
+
+//spacing
+
+.px-global {
+  padding: 0 $global-padding;
+}
+
+.no-spacing {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.p-half-global {
+  padding: $global-half-padding;
+}
+
+
+.p-global {
+  padding: $global-padding;
+}
+.px-half-global{
+  padding-left: $global-half-padding;
+  padding-right: $global-half-padding;;
+}
+
+.py-global {
+  padding-top: $global-padding;
+  padding-bottom: $global-padding;
+}
+
+.py-half-global {
+  padding-top: $global-padding/2;
+  padding-bottom: $global-padding/2;
+}
+
+.px-global {
+  padding-left: $global-padding;
+  padding-right: $global-padding;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
