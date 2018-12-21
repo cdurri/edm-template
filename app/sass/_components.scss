@@ -13,3 +13,108 @@
     margin-bottom: 5px;
   }
 }
+
+
+
+
+// -------------- vincostone
+
+.section-shipping{
+  .shipping-info{
+    th{
+      text-transform: capitalize;
+      
+    }
+    td{
+      font-weight: bold;
+    }
+  }
+}
+
+
+.contact-us{
+  font-size: 16px;
+}
+
+// -------------- vincostone
+.section-contact-us{
+  .contact-us-info{
+    tr{
+      >th{
+        text-transform: capitalize;
+        width: 30%;
+        padding-top: 7px;
+      }
+      >td{
+        padding-top: 7px;
+      }
+    }
+    tr:last-child{
+      th{
+        vertical-align: top;
+      }
+    }
+  }
+}
+
+
+table.table-border{
+  max-width: 100%;
+  th{
+    color: inherit;
+  }
+  th,td{
+    border: 1px solid $dark;
+    padding: 8px;
+    padding-right: 8px !important;
+    vertical-align: middle;
+    // text-transform: capitalize;
+    
+  }
+}
+
+.table-border-mobile{
+  max-width: 100%;
+  display: none;
+  tr>th{
+    color: inherit;
+    max-width: 250px;
+  }
+  th, td{
+    border: solid 1px black;
+    padding: 8px;
+    padding-right: 8px !important;
+  }
+}
+
+
+.request_to_user{
+  .section-shipping{
+    .shipping-info{
+      td{
+        font-weight: normal;
+      }
+    }
+  }
+}
+.product-details{
+  h6{
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0;
+    text-transform: uppercase;
+  }
+  p{
+    padding-bottom: 0;
+    margin: 0;
+  }
+}
+
+
+
+
+.footer >tbody >tr >td{
+  padding-bottom: 15px;
+  
+}

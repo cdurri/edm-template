@@ -165,6 +165,12 @@ th.float-center {
 .text-underline {
   text-decoration: underline; }
 
+.tran-cap {
+  text-transform: capitalize; }
+
+.tran-up {
+  text-transform: uppercase; }
+
 .text-primary {
   color: black; }
 
@@ -172,18 +178,25 @@ th.float-center {
   color: #471E6C; }
 
 .text-lead {
-  font-size: 17.5px;
+  font-size: 16px;
   font-weight: 700;
-  color: #471E6C; }
+  color: #1d1d1d; }
 
 .text-bold {
-  font-weight: 500; }
+  font-weight: 700; }
 
 .text-tiny {
-  font-size: 10px; }
+  font-size: 10px;
+  color: black; }
 
 .line-height-15 {
   line-height: 15px; }
+
+.text-black {
+  color: black; }
+
+.no_underline {
+  text-decoration: none; }
 
 .px-global {
   padding: 0 30px; }
@@ -213,6 +226,18 @@ th.float-center {
 .px-global {
   padding-left: 30px;
   padding-right: 30px; }
+
+.pl-20 {
+  padding-left: 20px; }
+
+.vertical-top {
+  vertical-align: top; }
+
+.w-40 {
+  width: 40%; }
+
+.w-60 {
+  width: 60%; }
 
 body {
   font-size: 14px;
@@ -250,12 +275,10 @@ small {
   font-size: 12px;
   color: #1d1d1d; }
 
-.lead-text {
-  font-size: 17.5px;
-  line-height: 1.6; }
-
 table {
   margin: 0;
+  border-color: white;
+  border: none;
   padding: 0;
   width: 100%;
   mso-table-lspace: 0pt !important;
@@ -286,7 +309,7 @@ table th {
 
 .body-container {
   height: 100%;
-  background: #f8f8f8;
+  background: #fff;
   max-width: 600px;
   margin: 0 auto; }
 
@@ -308,6 +331,15 @@ table th {
 .bg-secondary {
   background: #471E6C; }
 
+hr {
+  margin: 15px 0; }
+
+.bg-gray {
+  background: #f7f7f7; }
+
+a, a:hover, a:visited, a:hover:visited {
+  color: #2837b8; }
+
 .line-heigh-0 {
   line-height: 0px !important;
   mso-line-height-rule: exactly; }
@@ -321,3 +353,61 @@ table th {
 
 .section_why ul li {
   margin-bottom: 5px; }
+
+.section-shipping .shipping-info th {
+  text-transform: capitalize; }
+
+.section-shipping .shipping-info td {
+  font-weight: bold; }
+
+.contact-us {
+  font-size: 16px; }
+
+.section-contact-us .contact-us-info tr > th {
+  text-transform: capitalize;
+  width: 30%;
+  padding-top: 7px; }
+
+.section-contact-us .contact-us-info tr > td {
+  padding-top: 7px; }
+
+.section-contact-us .contact-us-info tr:last-child th {
+  vertical-align: top; }
+
+table.table-border {
+  max-width: 100%; }
+  table.table-border th {
+    color: inherit; }
+  table.table-border th, table.table-border td {
+    border: 1px solid #1d1d1d;
+    padding: 8px;
+    padding-right: 8px !important;
+    vertical-align: middle; }
+
+.table-border-mobile {
+  max-width: 100%;
+  display: none; }
+  .table-border-mobile tr > th {
+    color: inherit;
+    max-width: 250px; }
+  .table-border-mobile th, .table-border-mobile td {
+    border: solid 1px black;
+    padding: 8px;
+    padding-right: 8px !important; }
+
+.request_to_user .section-shipping .shipping-info td {
+  font-weight: normal; }
+
+.product-details h6 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0;
+  text-transform: uppercase; }
+
+.product-details p {
+  padding-bottom: 0;
+  margin: 0; }
+
+.footer > tbody > tr > td {
+  padding-bottom: 15px; }

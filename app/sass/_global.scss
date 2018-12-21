@@ -13,7 +13,13 @@
   text-decoration: underline;
 }
 
+.tran-cap{
+  text-transform: capitalize;
+}
 
+.tran-up{
+  text-transform: uppercase;
+}
 .text-primary {
   color: $primary-color;
 }
@@ -25,22 +31,29 @@
 .text-lead {
   font-size: $lead-font-size;
   font-weight: $font-weight-bold;
-  color: $secondary-color;
+  color: $dark;
 }
 
 .text-bold {
-  font-weight: $font-weight-semi-bold;
+  font-weight: $font-weight-bold;
 }
 
 .text-tiny {
   font-size: $tiny-font-size;
+  color: $primary-color;
 }
 
 .line-height-15 {
   line-height: 15px;
 }
 
+.text-black{
+  color: black;
+}
 
+.no_underline{
+  text-decoration: none;
+}
 
 //spacing
 
@@ -80,6 +93,20 @@
   padding-left: $global-padding;
   padding-right: $global-padding;
 }
+.pl-20{
+  padding-left: 20px;
+}
+
+.vertical-top{
+  vertical-align: top;
+}
+.w-40{
+  width: 40%;
+}
+.w-60{
+  width: 60%;
+}
+
 
 
 

@@ -20,7 +20,7 @@ $secondary-color        : #471E6C;
 $pink-light             : #ece8f0;
 $light                  : #fff;
 $gray-light             : #f8f8f8;
-$gray                   : #b9b9b9;
+$gray                   : #f7f7f7;
 $medium-gray            : #eeeeee;
 $gray-dark              : #707070;
 $gray-bold              : #848484;
@@ -57,7 +57,9 @@ $global-half-padding    : $global-padding/2;
 /* BG 
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-$color-bg-table         : $gray-light;
+$color-bg-table         : $light;
+$body-bg                : $medium-gray;
+
 
 /* Width page
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -99,7 +101,7 @@ $paragraph-margin-bottom: 10px;
 
 $small-font-size        : 12px;
 $small-font-color       : $dark;
-$lead-font-size         : $global-font-size * 1.25;
+$lead-font-size         : 16px;
 $lead-line-height       : 1.6;
 $lead-color             : $secondary-color;
 

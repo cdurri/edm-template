@@ -9,8 +9,14 @@ html
           -
             var pages = [
               { src: 'bright-1', name: 'bright-1'},
+              { src: 'vincostone_simple_admin', name: 'vincostone_simple_admin'},
+              { src: 'vincostone_simple_user', name: 'vincostone_simple_user'},
+              { src: 'contact-us', name: 'contact-us'},
+              { src: 'registerwaranty_edm', name: 'registerwaranty_edm'},
+              { src: 'request-to-admin', name: 'request-to-admin'},
+              { src: 'request-to-user', name: 'request-to-user'},
+              { src: 'product_detail', name: 'product_detail'},
             ];
-
           ul
             each page, index in pages
               li: a(href=page.src + '.html', title=page.name, style="font-size: 1.6rem; color: black;")
@@ -18,3 +24,6 @@ html
                 if page.parent
                   | [#{page.parent}] -
                 | #{page.name}
+
+
+                

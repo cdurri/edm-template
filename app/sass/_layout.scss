@@ -7,7 +7,7 @@ body {
   color: $color-body;
   text-align: $text-align-body;
   box-sizing: border-box;
-  background: $medium-gray;
+  background: $body-bg;
   min-width: $full-width;
   vertical-align: middle;
   display: block;
@@ -45,15 +45,17 @@ small {
   color: $small-font-color;
 }
 
-.lead-text {
-  font-size: $lead-font-size;
-  line-height: $lead-line-height;
-
-}
+// .lead-text {
+//   font-size: $lead-font-size;
+//   line-height: $lead-line-height;
+//   color: $dark;
+// }
 
 
 table {
   margin: 0;
+  border-color:white;
+  border: none;
   padding: 0;
   width: 100%;
   mso-table-lspace: 0pt !important; //fix spacing on outlook
@@ -117,6 +119,17 @@ table th {
   background: $secondary-color;
 }
 
+hr{
+  margin: 15px 0;
+}
+
+.bg-gray{
+  background: $gray;
+}
+
+a, a:hover, a:visited, a:hover:visited{
+  color: #2837b8;
+}
 .line-heigh-0{
   line-height: 0px !important;
   mso-line-height-rule: exactly;
